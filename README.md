@@ -23,14 +23,15 @@ Data Handling: CSV, Pandas
 Project Structure
 Call-Journal/
 │
-├── .venv/              # Virtual environment (not pushed to GitHub)
-├── static/             # Static files (images, CSS, JS)
-├── templates/          # HTML templates for rendering UI
-├── .env                # Environment variables (API keys, configs)
+├── .venv/              # Virtual environment (local only, not pushed to GitHub)
+├── static/             # Static assets (CSS, JS, images)
+├── templates/          # HTML templates for frontend
+│
+├── .env                # Environment variables (excluded via .gitignore)
 ├── app.py              # Main Flask application
 ├── call_analysis.csv   # Example dataset for call logs
-├── requirements.txt    # Python dependencies
-├── .gitignore          # Ignored files (e.g., .env, venv, cache)
+├── requirements.txt    # Project dependencies
+├── .gitignore          # Git ignore rules
 ├── README.md           # Project documentation
 
 Installation
