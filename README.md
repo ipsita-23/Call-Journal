@@ -1,11 +1,11 @@
 # Call Journal
 
-A lightweight web-based application for recording, organizing, and reviewing call details. This project provides a simple interface to log caller information, call duration, purpose, and additional notes, ensuring that important conversations are documented and easy to retrieve.  
+A lightweight web-based application for predicting the tone and emottion of the customer over call.
 
 ---
 
 ## Features
-- Add and manage call records with details such as name, number, date, and notes  
+- Predicts the sentiment of the user 
 - Simple, user-friendly web interface  
 - Search and review past call logs  
 - Organized data storage for better tracking  
